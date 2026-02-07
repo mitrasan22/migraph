@@ -289,6 +289,14 @@ src/
         └── helpers.py
 ```
 ---
+```
+## Add this in .env
+MIGRAPH_APP_NAME=migraph-backend
+MIGRAPH_API_PREFIX=
+
+MIGRAPH_LLM_MODEL=""
+MIGRAPH_HF_TOKEN=""
+```
 
 ## Status
 
