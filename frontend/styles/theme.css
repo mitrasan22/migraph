@@ -1,0 +1,48 @@
+:root {
+  --bg: #f4f1ea;
+  --panel: #ffffff;
+  --ink: #171717;
+  --muted: #6f6f6f;
+  --accent: #c2592d;
+  --accent-2: #0e5e6f;
+  --border: #e2d7c7;
+  --shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+body {
+  background: radial-gradient(circle at 10% 10%, #fff8ef 0%, #f4f1ea 55%, #efe5d9 100%);
+  color: var(--ink);
+}
+
+.app-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  margin-bottom: 0.2rem;
+}
+
+.app-subtitle {
+  color: var(--muted);
+  margin-bottom: 1.4rem;
+}
+
+section.main > div {
+  background: transparent;
+}
+
+.stTextArea textarea,
+.stTextInput input {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+}
+
+.stButton button {
+  background: var(--accent);
+  color: #fff;
+  border: none;
+}
+
+.stButton button:hover {
+  background: #a64b26;
+}

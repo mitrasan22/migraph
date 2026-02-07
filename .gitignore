@@ -1,0 +1,10 @@
+.env
+build/
+__pycache__/
+data/
+*.pyc
+*.egg-info/
+*.csv
+*.parquet
+*.json
+*.html
