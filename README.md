@@ -174,6 +174,10 @@ Memory        -> saves episodes for timeline + replay
 5. Metadata updates the Shock gauge and Stability panel.
 6. Graph view refreshes from `/graph/export`.
 7. Memory timeline loads episodes from `/query/history`.
+<img width="1859" height="800" alt="image" src="https://github.com/user-attachments/assets/cc941232-8abc-46ec-9d5a-962ea3f578b8" />
+<img width="1700" height="675" alt="image" src="https://github.com/user-attachments/assets/d8c562bd-3474-490c-a9bb-9a14373db144" />
+
+
 
 ---
 
